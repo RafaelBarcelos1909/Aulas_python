@@ -1,2 +1,10 @@
-n = int(input("digite um numero para ver sua tabuada"))
-print("a tabuada do numero {} até 10 é:\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}".format(n,n*1,n*2,n*3,n*4,n*5,n*6,n*7,n*8,n*9,n*10))
+print("a equação do 2° grau tem a seguinte estrutura: \nax^2 = bx = c = 0 \n")
+a= float(input("digite o valor de a: "))
+
+b= float(input("digite o valor de b: "))
+
+c= float(input("digite o valor de c: "))
+
+delta= b**2-4*a*c
+
+print(f"delta = {delta: .2f}")

@@ -1,4 +1,5 @@
-h = float(input('Digite a altura da parede: '))
-l = float(input('Digite a largura da parede: '))
-print('A parede tem uma área de {} m2, serão necessários {} litros de tinta.'.format(
-    (h*l), (h*l)/2))
+sal_minimo = float(input("informe o valor do salario minimo atual (R$):"))
+sal_usuario = float(input("informe o valor do seu salario mensal (R$):"))
+qtd_salarios = sal_usuario / sal_minimo
+
+print(f"você recebe aproximadamente {qtd_salarios: .2f} salario(s) minimo(s)")

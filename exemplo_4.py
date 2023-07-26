@@ -1,6 +1,2 @@
-nome = input("digite o nome do aluno: ")
-nota1 = int(input("digite a primeira nota: "))
-nota2 = int(input("digite a segunda nota:"))
-media = (n1+n2)/2
-print("a media do aluno é {}  " .format(media))
-print("o nome do aluno é{}" .format(nome))
+vm - float (input("digite a velocidade média em km/h:"))
+print ("a velocidade média informada em {} km/h, representa {} m/s ".format(vm, vm/3.6))

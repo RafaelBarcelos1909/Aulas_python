@@ -1,2 +1,14 @@
-sal = float(input('Digite o salário: '))
-print('O salário de R$ {}, acrescido de 15% é de R$ {}'.format(sal, sal*1.15))
+copo1 = "laranja"
+copo2 = "acerola"
+
+print("antes da troca")
+print(f"copo1, tem {copo1}")
+print(f"copo2, tem {copo2}")
+
+copo1, copo2 = copo2, copo1
+
+print("\ndepois da troca:")
+
+print(f"copo1, tem {copo1}")
+
+print(f"copo2, tem {copo2}")
